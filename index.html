@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>EduLearn</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<header class="topbar"><a class="brand" href="#home" data-nav="home">🎓 <span>EduLearn</span></a>
+<nav><a href="#home" data-nav="home" class="active">Home</a><a href="#courses" data-nav="courses">Courses</a><a href="#dashboard" data-nav="dashboard">Dashboard</a></nav>
+<button class="login-btn" data-nav="login">Login</button></header>
+<main>
+<section id="home" class="page active-page">
+<div class="hero"><div class="hero-copy"><div class="eyebrow">LEARN • GROW • SUCCEED</div><h1>Build Your Skills<br>for a Brighter Future</h1><p>Discover top courses, learn from expert instructors, and achieve your goals with EduLearn.</p><button class="primary" data-nav="courses">Start Learning →</button></div>
+<div class="hero-art"><div class="glow"></div><span class="cap">🎓</span><span class="bulb">💡</span><span class="student">👩‍💻</span><span class="books">📚</span><span class="plant">🪴</span></div></div>
+<section class="section"><h2>Featured Courses</h2><div class="cards">
+<article class="course-card blue"><div class="course-icon">🐍</div><div><h3>Python for Beginners</h3><p>Start your coding journey with Python. Learn the basics and build real projects.</p><button class="small" data-course="Python for Beginners">View Course →</button></div></article>
+<article class="course-card purple"><div class="course-icon">🌐</div><div><h3>Web Development</h3><p>Learn HTML, CSS, JavaScript and build modern websites from scratch.</p><button class="small" data-course="Web Development">View Course →</button></div></article>
+<article class="course-card green"><div class="course-icon">📊</div><div><h3>Data Science</h3><p>Analyze data, find insights and make data-driven decisions.</p><button class="small" data-course="Data Science">View Course →</button></div></article>
+</div></section>
+<section class="section"><h2>Categories</h2><div class="tiles"><button class="tile blue" data-filter="Programming">💻<strong>Programming</strong></button><button class="tile purple" data-filter="Design">🎨<strong>Design</strong></button><button class="tile green" data-filter="Data Science">📈<strong>Data Science</strong></button></div></section>
+<section class="section"><h2>Why EduLearn?</h2><div class="tiles"><div class="benefit blue">🎓<strong>Easy Learning</strong></div><div class="benefit purple">👥<strong>Expert Instructors</strong></div><div class="benefit green">💻<strong>Learn Anywhere</strong></div></div></section>
+</section>
+<section id="courses" class="page"><div class="page-head"><div><div class="eyebrow">EXPLORE</div><h1>Courses</h1><p>Choose a course and start learning.</p></div><input id="search" class="search" placeholder="Search courses..."></div><div id="course-grid" class="course-grid"></div></section>
+<section id="dashboard" class="page"><div class="page-head"><div><div class="eyebrow">YOUR LEARNING</div><h1>Dashboard</h1><p>Track your learning progress in one place.</p></div></div>
+<div class="stats"><div><strong>3</strong><span>Courses enrolled</span></div><div><strong>68%</strong><span>Average progress</span></div><div><strong>12</strong><span>Hours learned</span></div></div>
+<div class="panel"><h2>Continue Learning</h2><div class="progress-row"><div><b>Python for Beginners</b><span>Module 6 of 10</span></div><div class="bar"><i style="width:68%"></i></div><strong>68%</strong><button class="small" data-course="Python for Beginners">Continue</button></div>
+<div class="progress-row"><div><b>Web Development</b><span>Module 4 of 12</span></div><div class="bar"><i style="width:42%"></i></div><strong>42%</strong><button class="small" data-course="Web Development">Continue</button></div></div></section>
+<section id="login" class="page"><div class="login-wrap"><div class="login-card"><div class="brand center">🎓 <span>EduLearn</span></div><h1>Welcome back</h1><p>Log in to continue your learning journey.</p><form id="login-form"><label>Email<input type="email" required placeholder="you@example.com"></label><label>Password<input type="password" required placeholder="••••••••"></label><button class="primary full">Login</button></form><div id="login-msg"></div></div></div></section>
+</main>
+<div id="modal" class="modal"><div class="modal-card"><button class="close">×</button><div id="modal-content"></div></div></div>
+<footer><div class="footer-brand">🎓 EduLearn</div><div>About Us &nbsp; Contact &nbsp; Privacy Policy</div><div>© 2026 EduLearn</div></footer>
+<script src="script.js"></script></body></html>
