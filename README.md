@@ -12,11 +12,11 @@ A cohesive UI/UX design project for an online learning platform called **EduLear
   - `Task3_UX_Case_Study.pdf`
 - **Task 4 — Mini Project / Prototype**
   - `Task4_Prototype_Explanation.pdf`
-  - `Task-4/prototype/`
+  - `index.html`
 
 ## Task 4 Prototype
 
-Open `Task-4/prototype/index.html` in a browser, or use VS Code Live Server.
+Open `index.html` in a browser, or use VS Code Live Server.
 
 The prototype demonstrates Home, Courses, Dashboard, Login and course-detail interactions.
 
