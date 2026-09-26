@@ -5,13 +5,13 @@ A cohesive UI/UX design project for an online learning platform called **EduLear
 ## Tasks
 
 - **Task 1 — Wireframing & Low-Fidelity Design**
-  - `Task-1/Task1_Wireframe.pdf`
+  - `Task1_Wireframe.pdf`
 - **Task 2 — High-Fidelity UI Design**
-  - `Task-2/Task2_High_Fidelity_UI.pdf`
+  - `Task2_High_Fidelity_UI.pdf`
 - **Task 3 — UX Case Study**
-  - `Task-3/Task3_UX_Case_Study.pdf`
+  - `Task3_UX_Case_Study.pdf`
 - **Task 4 — Mini Project / Prototype**
-  - `Task-4/Task4_Prototype_Explanation.pdf`
+  - `Task4_Prototype_Explanation.pdf`
   - `Task-4/prototype/`
 
 ## Task 4 Prototype
